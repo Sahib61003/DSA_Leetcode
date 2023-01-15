@@ -1,5 +1,5 @@
-//Problem: 
-//Path:
+//Problem: Number of Good Paths
+//Path: https://leetcode.com/problems/number-of-good-paths/
 
 //Code:
 
