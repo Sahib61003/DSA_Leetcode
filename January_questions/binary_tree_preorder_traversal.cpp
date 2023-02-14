@@ -3,7 +3,6 @@
 
 // Code:
 
-// This is recursive approach.
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
