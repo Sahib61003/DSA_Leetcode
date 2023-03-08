@@ -57,7 +57,7 @@ public:
     14. Creating two variables sum and mx and assigning them to 0 and 0 respectively.
     15. Creating a for loop which will run from 0 to piles.size().
     16. sum will be assigned to sum + piles[i].
-    17. mx will be assigned to max(mx, piles[i]).
+    17. mx will be assigned to max(mx, piles[i])
     18. Creating three variables l, r and ans and assigning them to sum / H, mx and 0 respectively.
     19. Creating a while loop which will run until l is less than r.
     20. Creating a variable mid and assigning it to l + (r - l) / 2.
@@ -69,4 +69,4 @@ public:
     26. l is the minimum eating speed.
 */
 
-//Time Complexity: O(nlogn)
+//Time Complexity: O(nlogn
