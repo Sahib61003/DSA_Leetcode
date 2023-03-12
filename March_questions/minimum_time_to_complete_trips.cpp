@@ -2,6 +2,7 @@
 //Link: https://leetcode.com/problems/minimum-time-to-complete-all-jobs/
 
 //Code:
+
 class Solution {
 public:
     long long minimumTime(vector<int>& time, int totalTrips) {
