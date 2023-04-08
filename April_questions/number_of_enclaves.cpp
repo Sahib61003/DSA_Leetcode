@@ -39,3 +39,16 @@ public:
     }
 };
 
+/*Explanation of the above code:
+    1. The first line defines a class called "Solution".
+    2. The next line defines a public function called "dfs", which is used to perform depth-first search on the grid to find the enclaves. The function takes in the grid, the current row (i), the current column (j), and the total number of rows (m) and columns (n) in the grid as parameters.
+    3. The next few lines check if the current cell is out of bounds or if it contains a 0. If either of these conditions is true, the function returns.
+    4. If the current cell is a 1, it is set to 0 to mark it as visited, and the dfs function is called recursively for each of its neighboring cells (up, down, left, and right).
+    5. The "numEnclaves" function is the main function that returns the number of enclaves in the grid. It takes in the grid as a parameter.
+    6. The next two lines define variables "m" and "n" to store the number of rows and columns in the grid, respectively.
+    7. The following two for loops check the top and bottom rows and mark all the 1s in those rows as visited by calling the dfs function.
+    8. The next two for loops check the leftmost and rightmost columns and mark all the 1s in those columns as visited by calling the dfs function.
+    9. Finally, the last for loop counts the number of unvisited 1s in the grid and returns the count as the result.
+*/
+
+//Time Complexity : O(logn)
