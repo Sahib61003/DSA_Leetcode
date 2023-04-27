@@ -14,4 +14,4 @@ public:
   2. return square root of the integer using function
  */
 
-
+//Time Complexity: O(log(n))
