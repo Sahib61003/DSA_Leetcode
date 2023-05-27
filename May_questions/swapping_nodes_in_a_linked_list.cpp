@@ -2,6 +2,7 @@
 //Link: https://leetcode.com/problems/swapping-nodes-in-a-linked-list/
 
 //Code:
+
 class Solution {
 public:
     ListNode* swapNodes(ListNode* head, int k) {
