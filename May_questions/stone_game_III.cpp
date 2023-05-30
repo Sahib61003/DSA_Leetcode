@@ -1,3 +1,6 @@
+//Problem: Stone Game  III
+//Link: https://leetcode.com/problems/stone-game-iii/
+
 //Code:
 class Solution {
 public:
