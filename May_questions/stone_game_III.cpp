@@ -32,3 +32,18 @@ public:
         }
     }
 };
+
+/*Explanation of the Code:
+    1. The idea is to use dynamic programming to solve this problem.
+    2. The base case of the recursion would be when the list is empty or has just one node.
+    3. The recursive function returns the pointer to the swapped list.
+    4. The first two lines of the function are the base case.
+    5. The third line stores the pointer to the second node in the list in a temporary variable.
+    6. The fourth line calls the function recursively for the rest of the list.
+    7. The fifth line makes the next of the second node point to the first node.
+    8. The sixth line makes the next of the first node point to the rest of the list.
+    9. The seventh line returns the pointer to the second node.
+*/
+
+// Time Complexity: O(N)
+
