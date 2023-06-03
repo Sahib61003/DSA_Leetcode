@@ -49,3 +49,18 @@ private:
     }
 };
 
+
+/*explanation of the Code:
+    1. The code implements a simplified version of has set data structure
+    2. The code uses a vector of lists to store the elements
+    3. The code uses a hash function to map the key to an index in the vector
+    4. The code uses a linked list to store the elements in the same bucket
+    5. The code uses a simple linear search to check if the element is present in the bucket
+    6. The code uses a simple linear search to remove the element from the bucket
+    7. The code uses a simple linear search to add the element to the bucket.
+    8. The code contains a private class.
+    9. The code contains a private function to calculate the hash value.
+    10. The code contains a private function to check if the element is present in the bucket.
+*/
+
+// Time Complexity: O(1)
