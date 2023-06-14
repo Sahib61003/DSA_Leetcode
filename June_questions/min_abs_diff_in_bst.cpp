@@ -1,5 +1,5 @@
-//Problem:
-//Linnk:
+//Problem: Minimum Absolute difference in BST
+//Link: https://leetcode.com/problems/minimum-absolute-difference-in-bst/
 
 //Code:
 class Solution {
@@ -18,7 +18,8 @@ int getMinimumDifference(TreeNode* root) {
     }
 };
 
-/*Explanation of  the Code:
+/*Explanation of the Code:
+
 */
 
 //Time Complexity: 
