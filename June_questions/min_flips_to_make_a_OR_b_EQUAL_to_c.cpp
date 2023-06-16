@@ -27,7 +27,22 @@ public:
 };
 
 /*Explanation of the Code:
-
+    1. We have created a class Solution.
+    2. We have created a function minFlips.
+    3. We have created a variable ans to store the answer.
+    4. We have created a while loop to iterate till a or b or c is not equal to 0.
+    5. We have created a variable x1 to store the value of a&1.
+    6. We have created a variable x2 to store the value of b&1.
+    7. We have created a variable x3 to store the value of c&1.
+    8. We have created a if statement to check if (x1|x2)!=x3.
+    9. We have created a if statement to check if x1&x2 is true.
+    10. We have updated the value of ans by 2.
+    11. We have created a else statement.
+    12. We have updated the value of ans by 1.
+    13. We have updated the value of a by a>>1.
+    14. We have updated the value of b by b>>1.
+    15. We have updated the value of c by c>>1.
+    16. We have returned ans.
 */
 
-//Time Complexity: 
+// Time Complexity: O(n)
