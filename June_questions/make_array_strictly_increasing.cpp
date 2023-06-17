@@ -1,7 +1,6 @@
-//Problem: 
-
-
-
+//Problem: Make array strictly increasing
+//Link: https://leetcode.com/problems/make-array-strictly-increasing
+ 
 //Code:
 class Solution {
 public:
